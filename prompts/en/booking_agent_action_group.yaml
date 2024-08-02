@@ -1,0 +1,3 @@
+name: TableBookingsActionGroup
+description: >-
+  Actions for getting table booking information, create a new booking or delete an existing booking.

@@ -1,0 +1,62 @@
+{
+  functions:
+    [
+      {
+        name: "get_booking_details",
+        description: "Retrieve details of a restaurant booking",
+        parameters:
+          {
+            booking_id:
+              {
+                description: "The ID of the booking to retrieve",
+                required: true,
+                type: "string",
+              },
+          },
+      },
+      {
+        name: "create_booking",
+        description: "Create a new restaurant booking",
+        parameters:
+          {
+            date:
+              {
+                description: "The date of the booking in the format YYYY-MM-DD",
+                required: true,
+                type: "string",
+              },
+            name:
+              {
+                description: "Name to identify your reservation",
+                required: true,
+                type: "string",
+              },
+            hour:
+              {
+                description: "The hour of the booking in the format HH:MM",
+                required: true,
+                type: "string",
+              },
+            num_guests:
+              {
+                description: "The number of guests for the booking",
+                required: true,
+                type: "integer",
+              },
+          },
+      },
+      {
+        name: "delete_booking",
+        description: "Delete an existing restaurant booking",
+        parameters:
+          {
+            booking_id:
+              {
+                description: "The ID of the booking to delete",
+                required: true,
+                type: "string",
+              },
+          },
+      },
+    ],
+}

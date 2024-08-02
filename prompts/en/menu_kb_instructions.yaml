@@ -1,0 +1,5 @@
+name: booking-agent-kb
+description: >-
+  Knowledge Base containing the restaurant menu's collection.
+template: >-
+  Access the knowledge base when customers ask about the plates in the menu.
